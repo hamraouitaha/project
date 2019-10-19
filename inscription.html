@@ -1,0 +1,52 @@
+
+<html>
+
+<head>
+<title>Inscription</title>
+    <script language="javascript" src="test.js"></script>
+</head>
+
+<body>
+
+<form name="f" METHOD=POST action="inscription.php">
+	
+	<fieldset style="padding: 2">
+	<legend>
+		<i><b><font size="5" color="#800000">Inscription</font></b></i>
+	</legend>
+	<div align="center">
+		<table border="0" width="80%">
+			
+			
+			
+			<tr>
+				<td>uesrname</td>
+				<td><input  type="text" name="T1" size="20"></td>
+			</tr>
+			<tr>
+				<td>password</td>
+				<td><input  type="password"name="T2" size="20" onblur="return verif_password()"></td>
+				
+			</tr>
+			<tr>
+				<td> confipassword</td>
+				<td><input  type="password" name="T3" size="20" onblur="return verif_password()"></td>
+				
+			</tr>
+			<tr>
+				
+			<tr>
+				<td colspan="3">
+				<p align="center">
+				<input  type="submit" value="Enregistrer" name="B1" onclick="return verif()">
+				 <input type="reset" value="Annuler" name="B2">
+				</p>
+				</td>
+			</tr>
+		</table>
+	</div>
+</form>
+
+</body>
+
+</html>
